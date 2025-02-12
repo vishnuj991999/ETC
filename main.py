@@ -27,7 +27,7 @@ client = InferenceClient(api_key=bb)  # Replace with your Hugging Face API key
 # Streamlit UI for chatbot with title and logo aligned
 col1, col2 = st.columns([0.8, 0.2])  # Adjust width: 80% text, 20% logo
 with col1:
-    st.markdown("<h4 style='text-align: left; font-family: Lora, serif;'>ETChat</h4>", unsafe_allow_html=True)  # Left-aligned title with Georgia font
+    st.markdown("<h3 style='text-align: left; font-family: Lora, serif;'>ETChat</h3>", unsafe_allow_html=True)  # Left-aligned title with Georgia font
 
 with col2:
     st.image("ETC.png", width=100)  # Right-aligned logo (replace with actual image path)
